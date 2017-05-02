@@ -10,7 +10,7 @@ package entornos_examen;
  * @author Nacho
  */
 public class CCuenta {
-    private String nombreCliente;
+    private String pepe;
     private String cuentacorriente;
     String contrasena; //contraseña del acceso web
     private double saldocuenta;
@@ -32,7 +32,7 @@ public class CCuenta {
      */
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
-        nombreCliente=nom;
+        pepe=nom;
         cuentacorriente=cue;
         saldocuenta=sal;
     }
@@ -104,14 +104,14 @@ public class CCuenta {
      * @return Devuelve el nombre del cliente
      */
     public String getNombreCliente() {
-        return nombreCliente;
+        return pepe;
     }
 
     /**
      * @param nombreCliente Asigna el nombre al cliente
      */
     public void setNombreCliente(String nombreCliente) {
-        this.nombreCliente = nombreCliente;
+        this.pepe = nombreCliente;
     }
 
     /**
